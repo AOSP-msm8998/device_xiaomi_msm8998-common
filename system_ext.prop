@@ -2,20 +2,11 @@
 # system_ext props for MSM8998
 #
 
-# Blurs
-persist.sys.sf.disable_blurs=1
-ro.sf.blurs_are_expensive=1
-ro.surface_flinger.supports_background_blur=1
-
 # DPM
 persist.vendor.dpm.feature=11
 
 # DRM
 drm.service.enabled=true
-
-# Performance mode
-ro.perfmode=true
-ro.perf.cluster1=4
 
 # Time services
 persist.timed.enable=true
